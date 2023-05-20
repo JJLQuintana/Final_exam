@@ -1,3 +1,6 @@
+import streamlit as st
+import tensorflow as tf
+
 from google.colab import drive
 drive.mount('/content/drive')
 

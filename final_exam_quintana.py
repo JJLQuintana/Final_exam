@@ -7,7 +7,7 @@ def load_model():
   return model
 model=load_model()
 st.write("""
-# Plant Leaf Detection System"""
+# Agricultural Crop Classification"""
 )
 file=st.file_uploader("Choose Agricultural crop photo from computer",type=["jpg","png"])
 A
